@@ -10,7 +10,14 @@ class Landing extends Component {
 
                 <div className='text-center'>
                    <Fade><p className='fancy-heading'>Sensations Gentleman's Club</p></Fade> 
+                   <div className='location-names'>
+                        <p className='fancy-paragraph'><b>Inola, OK</b></p>
+                        <p className='fancy-paragraph'>|</p>
+                        <p className='fancy-paragraph'><b>Galena, KS</b></p>
+                    </div>
+
                     <p className='fancy-subheading'>Home of the naked ladies</p>
+                    
                    
                    
                     <Link class = "navItems"
@@ -20,6 +27,7 @@ class Landing extends Component {
                                             to = "/Book">
                         <div className='navItem cb-paragraph'><button>Book Now</button></div>
                         </Link>
+                        
                    
                    
                 </div>

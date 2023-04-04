@@ -13,7 +13,10 @@
 .book-cards{
     display: flex;
     padding: 0px 60px 60px 60px;
+    transition: .4s;
 }
+
+
 
 .book-title{
     text-align: center;
@@ -22,6 +25,12 @@
 .book-info{
     margin-left: 5px;
     margin-right: 5px;
+    transition: .4s;
+}
+.book-info:hover{
+    backdrop-filter: blur(10px) !important;
+    z-index: 1;
+    transform: scale(1.2) !important;
 }
 #titoStyling > tito-button > .tito-widget-button{
     font-size: 25px;

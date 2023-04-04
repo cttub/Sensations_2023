@@ -12,7 +12,8 @@ import Apply from './Components/Apply';
 import Drink from './Components/Drink';
 import Visit from './Components/Visit';
 import Book from './Components/Book';
-
+import Gallery from './Components/Gallery';
+import Faq from './Components/Faq';
 function App() {
   React.useEffect(() => {
     TagManager.initialize({
@@ -30,6 +31,8 @@ function App() {
                 <Route path = "Visit" element = {<Visit/>}/>
                 <Route path = "Apply" element = {<Apply/>}/>
                 <Route path = "Book" element = {<Book/>}/>
+                <Route path = "Gallery" element = {<Gallery/>}/>
+                <Route path = "FAQ" element = {<Faq/>}/>
               </Route>
           </Routes>
      </HashRouter>
