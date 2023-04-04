@@ -18,12 +18,13 @@ class Footer extends Component {
         return (
             <div id = "footer" className='darkRed-bg'>
                 <div>
-                    <img className = "col-lg-6 col-md-6" src = {logo}></img>
+                    <img className = "col-lg-6 col-md-6" style={{paddingTop: "20px", paddingLeft: "20px"}} src = {logo}></img>
                 </div>
                
                         <div id = "sensations-webs" className='fancy-small col-lg-2 col-md-2'>
                             <p className='fancy-small'>Sensations Gentleman's Club</p>
                             <p className='fancy-small'>https://www.sensationsgc.club/</p>
+                            <a href="mailto:contact@sensationsgc.club" class="fancy-small">contact@sensationsgc.club</a>
                         </div>
                         <div className='col-lg-2 col-md-2'>
                             <p className='fancy-small'>Inola, OK</p>
@@ -37,8 +38,8 @@ class Footer extends Component {
                             <p className='cb-small-text'><a target = "_blank" href = "https://www.google.com/maps/dir//11491+SE+Hwy+166,+Galena,+KS+66739/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x87c86df1da17040b:0x8f3747b7860282b1?sa=X&ved=2ahUKEwjqqOWi_47-AhXGmmoFHdaZB24QwwV6BAgLEAQ">
                                 11491 Southeast Hwy 166, Galena, KS 66739</a></p>
                         </div>
+                    
                         <div className='col-lg-4 col-md-4'>
-                           
                             <p className='cb-small-text tito-footer'><TitoWidget/></p>
                         </div>
                 </div>
