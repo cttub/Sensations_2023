@@ -42,14 +42,7 @@ class Home extends Component {
                     scrollingSpeed={1000}
                     sectionsColor={['#Landing', 'black', '#Offer', '#Learn']}
                     navigation={true}
-                    onLeave={(origin, destination) => {
-                        this.setState({ currentSection: destination.index });
-                        if (destination.index === 0) {
-                            this.setState({ animationClass: '' });
-                        } else {
-                            this.setState({ animationClass: 'slide-in' });
-                        }
-                    }}
+                 
                     render={({ state, fullpageApi }) => {
                         return (
                             <ReactFullpage.Wrapper>

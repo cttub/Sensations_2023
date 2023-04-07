@@ -4,6 +4,7 @@ import {Route, Link, BrowserRouter} from 'react-router-dom';
 import '../App.css';
 import '../Styles/mobileNav.css';
 import Fade from 'react-reveal/Fade';
+import NavigationBar from './NavigationBar';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -30,7 +31,7 @@ const Layout = () => {
   };
     return(
         <>   
-            
+            <NavigationBar/>
             <button  onClick={handleClick} id="navButtonMobile" class="hamburger">
                      <FontAwesomeIcon className="icon-large" icon="bars" />
             </button>
