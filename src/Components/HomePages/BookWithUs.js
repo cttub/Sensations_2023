@@ -28,8 +28,7 @@ class BookWithUs extends Component {
 
                         <div className='book-info glass'>
                             <p className='cb-paragraph book-title'>Access Pass</p>
-                            <p className='cb-small-text'>This package is more of a personalized strip club experience with a souvenir cup. It includes a door ticket and a 
-                                specially designed cup that the individual can keep as a memento with unlimited fountain drink refills throughout the night.</p>
+                            <p className='cb-small-text'>This package includes your entry into our club. It includes our door ticket entry for the night you come in.</p>
                             <p className='cb-paragraph price'>$15</p>
                         </div>
 
