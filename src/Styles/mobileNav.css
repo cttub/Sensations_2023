@@ -7,15 +7,17 @@
     }
 }
 #navButtonMobile{
-   position: absolute;
-   z-index: 3;
-   background-color: transparent !important;
-   padding-left: 10px !important;
-   padding-right: 10px !important;
-   border-radius: 0px !important;
+    position: absolute;
+    z-index: 3;
+    background-color: transparent !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    border-radius: 0px !important;
 }
-
-
+.hide {
+    display: none;
+  }
+  
 #mobileDiv{
     margin-top: -10px;
     top: 0;
@@ -24,6 +26,7 @@
     z-index: 2;
    
 }
+
 .icon-large {
     font-size: 40px;
     padding: 10px;

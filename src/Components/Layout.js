@@ -41,7 +41,11 @@ const Layout = () => {
             </button>
            
         
-               <Fade top when={show}><div id ="mobileDiv" className='mobileNav'>
+            <Fade top when={show}>
+        <div
+          id="mobileDiv"
+          className={`mobileNav ${show ? "" : "hide"}`}
+        >
                 
 
                 <div className='listMobile'>
