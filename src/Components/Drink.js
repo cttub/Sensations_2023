@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Nav from './NavigationBar';
 import VisitCard from './VisitCard';
 
-import image from '../Assets/Images/imageTwo.jpg';
+import image from '../Assets/Images/imageTwo.JPG';
 
 import Fade from 'react-reveal/Fade';
 

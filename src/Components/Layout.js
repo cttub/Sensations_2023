@@ -29,6 +29,10 @@ const Layout = () => {
   const handleClick = () => {
     setShow(!show);
   };
+  const handleLinkClick = () => {
+    setShow(false);
+  };
+  
     return(
         <>   
             <NavigationBar/>
@@ -45,6 +49,7 @@ const Layout = () => {
                         <Link class = "navItems"
                                 onClick={() => {
                                                 document.querySelector("html").scrollTo(0,0);
+                                                handleLinkClick(); 
                                                 }}
                                                 to = "/">
                             <div className='navItem cb-paragraph'>Home</div>
@@ -55,6 +60,7 @@ const Layout = () => {
                     <Link class = "navItems"
                             onClick={() => {
                                             document.querySelector("html").scrollTo(0,0);
+                                            handleLinkClick(); 
                                             }}
                                             to = "/Services">
                         <div className='navItem cb-paragraph'>Services</div>
@@ -65,6 +71,7 @@ const Layout = () => {
                     <Link class = "navItems"
                             onClick={() => {
                                             document.querySelector("html").scrollTo(0,0);
+                                            handleLinkClick(); 
                                             }}
                                             to = "/Drinks">
                         <div className='navItem cb-paragraph'>Drinks</div>
@@ -75,6 +82,7 @@ const Layout = () => {
                     <Link class = "navItems"
                             onClick={() => {
                                             document.querySelector("html").scrollTo(0,0);
+                                            handleLinkClick(); 
                                             }}
                                             to = "/Visit">
                         <div className='navItem cb-paragraph'>Visit</div>
@@ -85,6 +93,7 @@ const Layout = () => {
                     <Link class = "navItems"
                             onClick={() => {
                                             document.querySelector("html").scrollTo(0,0);
+                                            handleLinkClick(); 
                                             }}
                                             to = "/Apply">
                         <div className='navItem cb-paragraph'>Apply</div></Link>
@@ -95,6 +104,7 @@ const Layout = () => {
                         <Link class = "navItems"
                                 onClick={() => {
                                                 document.querySelector("html").scrollTo(0,0);
+                                                handleLinkClick(); 
                                                 }}
                                                 to = "/Book">
                             <div className='navItem cb-paragraph'>Book Now</div></Link>
@@ -103,6 +113,7 @@ const Layout = () => {
                         <Link class = "navItems"
                                 onClick={() => {
                                                 document.querySelector("html").scrollTo(0,0);
+                                                handleLinkClick(); 
                                                 }}
                                                 to = "/FAQ">
                             <div className='navItem cb-paragraph'>FAQ</div></Link>
