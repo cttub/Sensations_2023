@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import {Route, Link, BrowserRouter} from 'react-router-dom';
 import VisitCard from '../VisitCard';
-import image from '../../Assets/Images/see_you.JPG';
+import image from '../../Assets/Images/see_you.jpg';
 import Footer from '../Footer';
 
 class Information extends Component {

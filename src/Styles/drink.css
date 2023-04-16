@@ -2,7 +2,7 @@
 .menu-container{
     border-top: solid #8B0000 20px;
     border-bottom: solid #8B0000 20px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.51) 42.19%, rgba(128, 0, 0, 0.51) 83.33%), url('../Assets/Images/drink.JPG');
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.51) 42.19%, rgba(128, 0, 0, 0.51) 83.33%), url('../Assets/Images/drink.png');
     background-size: cover;
     padding: 50px;
 }

@@ -1,7 +1,6 @@
 #main-container{
     display: flex;
     height: 65vh;
- 
     padding-bottom: 10px;
     margin-bottom: 15px;
 }
