@@ -1,26 +1,36 @@
 /*Landing Styles*/
 #home-landing{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.51) 42.19%, rgba(128, 0, 0, 0.51) 83.33%), url('../Assets/Images/header_image.JPG');
+    padding-top: 10px;
+    padding-bottom: 100px;
+    
+    display: flex;
+    align-items: center;
+    background: url('../Assets/header.png');
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
 }
-.location-names{
-    display: flex;
-    justify-content: center;
+#home-landing > div {   
+    padding: 20px;
 }
-.location-names > p{
-    margin-top: -10px;
-    margin-left: 10px;
-    margin-right: 10px;
+.leading{
+    font-size: 40px;
+}
+.sub-leading{
+    font-size: 22px;
+}
+.sub-leading.location{
     margin-bottom: -10px;
 }
-.text-center{
-    margin-top: 15%;
+#home-landing > div > img{
+    width: 40vh;
 }
-div.section .fancy-heading {
-    border: solid 1px;
-    padding: 10px;
+.button-book{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
 }
+
 
 /*Work*/
 #work{
@@ -43,4 +53,15 @@ div.section .fancy-heading {
 }
 #workText > .fancy-subheading{
     text-align: center;
+}
+@media only screen and (max-width: 767px){
+    .button-book{
+        display: block;
+       
+    }
+    #home-landing{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
 }
