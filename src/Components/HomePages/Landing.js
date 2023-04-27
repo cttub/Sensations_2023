@@ -11,12 +11,13 @@ class Landing extends Component {
                 <div className='text-center'>
                    <Fade><p className='fancy-heading'>Sensations Gentleman's Club</p></Fade> 
                    <div className='location-names'>
-                        <p className='fancy-paragraph'><b>Inola, OK</b></p>
+                        <p className='fancy-paragraph'><b>Inola, Oklahoma</b></p>
                         <p className='fancy-paragraph'>|</p>
-                        <p className='fancy-paragraph'><b>Galena, KS</b></p>
+                        <p className='fancy-paragraph'><b>Galena, Kansas</b></p>
                     </div>
 
-                    <p className='fancy-subheading'>Home of the naked ladies</p>
+                    <p className='fancy-subheading'>Book now to see our sexy ladies in our gentlemen's club.</p>
+                    
                     
                    
                    
@@ -25,8 +26,9 @@ class Landing extends Component {
                                             document.querySelector("html").scrollTo(0,0);
                                             }}
                                             to = "/Book">
-                        <div className='navItem cb-paragraph'><button>Book Now</button></div>
+                        <div className='navItem cb-paragraph'><button style={{fontSize: "30px"}}>Book Now</button></div>
                         </Link>
+                        <p className='fancy-paragraph'>See our exclusive package deals and bundles we offer for online booking</p>
                         
                    
                    

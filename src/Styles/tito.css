@@ -25,6 +25,8 @@
 }
 .book-para{
     height: 40%;
+    font-size: 20px;
+    overflow-y: auto;
 }
 .book-info{
     margin-left: 5px;

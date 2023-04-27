@@ -51,6 +51,7 @@ class ServiceItems extends Component {
 
                                 <div className='item'>
                                     <p className='item-title fancy-subheading'>The GF Experience</p>
+                                    <p style={{textAlign: "center"}} className='cb-paragraph'>Coming Soon</p>
                                     
                                     <div id  = "sub-item" className='border-bottom'>
                                         <p id='itemTag' className='cb-paragraph'>Three Songs</p>

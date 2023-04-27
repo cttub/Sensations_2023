@@ -29,7 +29,13 @@ class GetToKnow extends Component {
                             </div>
                             
 
-                            <Fade duration = {3000}><div className='center-container'>
+             
+                            <Fade  duration = {1500}>
+                                <p className='cb-paragraph' style={{textAlign: "center"}}>
+                                    Our services include exciting exclusive experiences just for you. 
+                                    </p>
+                                </Fade>
+                                <Fade duration = {3000}><div className='center-container'>
                                         <Link class = "navItems" 
                                             onClick={() => {
                                                             document.querySelector("html").scrollTo(0,0);
