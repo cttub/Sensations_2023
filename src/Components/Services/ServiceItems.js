@@ -109,6 +109,14 @@ class ServiceItems extends Component {
                                         <p id='price' className='cb-paragraph'>$500</p>
                                     </div>
                                 </div>
+                                <div className='item'>
+                                    <p className='cb-paragraph' style={{fontSize: "20px"}}>
+                                        In our Tulsa Club, we have <b>4 VIP rooms</b> and <b>9 private booths</b> avaliable for private dances.
+                                    </p>
+                                    <p className='cb-paragraph' style={{fontSize: "20px"}}>
+                                        In our Joplin Club, we have <b>3 VIP rooms</b> and <b>9 private booths</b> avalible for one on one private dances as well.
+                                    </p>
+                                </div>
                                 
 
                                
