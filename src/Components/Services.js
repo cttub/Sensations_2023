@@ -11,7 +11,7 @@ class Services extends Component {
     render() { 
         return (
             <>
-            <Nav/>
+           
             <ServiceItems/>
 
             <div id='s-info'>

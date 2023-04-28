@@ -122,7 +122,7 @@ class Faq extends Component {
 
     return (
       <div id="faq">
-        <NavigationBar />
+  
         <div className='background-image'></div>
         <div className='faq-page-container'>
             <p className='title fancy-heading'>Frequently Asked Questions</p>

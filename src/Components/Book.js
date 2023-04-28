@@ -8,7 +8,7 @@ class Book extends Component {
     render() { 
         return (
             <>
-            <NavigationBar/>
+        
             <BookWithUs/>
             </>
         );

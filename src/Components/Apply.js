@@ -7,7 +7,7 @@ class Apply extends Component {
     render() { 
         return (
             <>
-            <Nav/>
+        
             <div className = "MainForm" id = 'form'>
             
             <div id="ff-compose"></div>

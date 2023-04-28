@@ -17,7 +17,7 @@ html{
 
 a{
   color: white;
-  transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.2s;
   text-decoration: none;
 }
 a:hover{
@@ -130,7 +130,12 @@ button:hover, .button:hover{
 #fp-nav ul li a span, .fp-slidesNav ul li a span{
    background: #490000 !important;
 }
-
+.logo-spot{
+  transition: ease-in-out .2s;
+}
+.logo-spot:hover{
+  transform: scale(1.1);
+}
 #form{
   padding-top: 10%;
   background:  linear-gradient(180deg, rgba(0, 0, 0, 0.51) 42.19%, rgba(128, 0, 0, 0.51) 83.33%),url('./Assets/Images/form.JPG');

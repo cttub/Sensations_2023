@@ -6,8 +6,7 @@ class Gallery extends Component {
     render() { 
         return (
             <div id = "gallery">
-                <NavigationBar/>
-
+            
 
             </div>
 

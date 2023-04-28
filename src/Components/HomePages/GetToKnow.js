@@ -32,7 +32,7 @@ class GetToKnow extends Component {
              
                             <Fade  duration = {1500}>
                                 <p className='cb-paragraph' style={{textAlign: "center"}}>
-                                    Our services include exciting exclusive experiences just for you. 
+                                    We offer Private Booth Dances, Private VIP Dances, and Couple Dances.
                                     </p>
                                 </Fade>
                                 <Fade duration = {3000}><div className='center-container'>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import {Route, Link, BrowserRouter} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import logo from '../../Assets/horizontalLogo.svg';
 class Landing extends Component {
     state = {  } 
@@ -10,9 +10,31 @@ class Landing extends Component {
                 <div className='col-lg-6'>
                     <img src={logo}/>
                     <p className='leading cb-paragraph'>The best All Nude Strip Club with all exclusive experience with gorgeous women.</p>
-                    <p className='sub-leading location cb-paragraph'><u>We have two lovely locations:</u></p>
-                    <p className='sub-leading cb-paragraph'>10 miles from Joplin, Missouri & Directly across from Downstream Casino (Galena, Kansas)</p>
-                    <p className='sub-leading cb-paragraph'>15 miles East of Hard Rock Cafe in Tulsa, Oklahoma (Inola, Oklahoma)</p>
+                    <p className='sub-leading location cb-paragraph'><b>We have two lovely locations:</b></p>
+                    <p className='sub-leading cb-paragraph'>10 miles from <span>&nbsp;</span>
+                    <span>
+                    <Link style={{display: "inline-block"}}
+                            onClick={() => {
+                                            document.querySelector("html").scrollTo(0,0);
+                                            }}
+                                            to = "/Visit">
+                        <div><u> Joplin, Missouri </u></div></Link></span> 
+                 
+                        <span>        & Directly across from Downstream Casino <span>&nbsp;</span>
+                    <Link style={{display: "inline-block"}}
+                            onClick={() => {
+                                            document.querySelector("html").scrollTo(0,0);
+                                            }}
+                                            to = "/Visit">
+                        <div>(<u>Galena, Kansas</u>)</div></Link> </span> </p>
+                    <p className='sub-leading cb-paragraph'>15 miles East of Hard Rock Cafe in <span>&nbsp;</span>
+                    <span>
+                    <Link style={{display: "inline-block"}}
+                            onClick={() => {
+                                            document.querySelector("html").scrollTo(0,0);
+                                            }}
+                                            to = "/Visit">
+                        <div><u> Tulsa, Oklahoma (Inola, Oklahoma) </u> </div></Link>  </span></p>
                     <div className='button-book'>
                         <Link class = "navItems"
                                 onClick={() => {

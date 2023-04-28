@@ -25,9 +25,7 @@ class Visit extends Component {
     render() {
       return (
         <div id='visit'>
-          <Nav />
 
-         
           <div id='location' className='cb-fullpage'>
 
             <div id='loca-content'>

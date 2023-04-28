@@ -13,7 +13,7 @@ class Drinks extends Component {
     render() { 
         return (
             <>
-            <Nav/>
+         
             <div id='drinkMenu'>
                 <p className='fancy-heading' style = {{textAlign: "center", paddingTop: "6%"}}>Our Drink Menu</p>
 
