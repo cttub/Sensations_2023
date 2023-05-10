@@ -15,18 +15,27 @@
     padding: 0px 60px 60px 60px;
     transition: .4s;
 }
-
-
-
+.book-bullet{
+    height: 40%;
+}
+li.title{
+    list-style: none;
+}
+.book-info > .book-bullet > p.book-para{
+    text-align: center;
+}
+.book-info >  .book-bullet > ul > li{
+    margin-bottom: 10px;
+}
 .book-title{
     height: 20%;
     text-align: center;
     border-bottom: solid white 1px;
 }
 .book-para{
-    height: 40%;
-    font-size: 20px;
-    overflow-y: auto;
+ 
+    font-size: 23px;
+   
 }
 .book-info{
     margin-left: 5px;

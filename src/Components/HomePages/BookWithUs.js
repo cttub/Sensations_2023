@@ -27,32 +27,55 @@ class BookWithUs extends Component {
                     <div className='book-cards'>
 
                         <div className='book-info glass'>
+                           
                             <p className='cb-paragraph book-title'>Access Pass</p>
-                            <p className='cb-small-text book-para'>This package includes your entry into our club. It includes our door ticket entry for the night you come in.</p>
+                            <div className='book-bullet'>
+                              
+                                <ul>
+                                    <li className='cb-small-text book-para title'>This package includes:</li>
+                                    <li  className='cb-small-text book-para'>Door Entry</li>
+                                </ul>
+                            </div>
                             <p className='cb-paragraph price'>$15</p>
                         </div>
 
                         <div className='book-info glass'>
                             <p className='cb-paragraph book-title'>Take-Home Treat</p>
-                            <p className='cb-small-text book-para'>This package is more of a personalized strip club experience with a souvenir cup. 
-                            It includes a door ticket and a specially designed cup that the individual can keep as a memento with unlimited 
-                            fountain drink refills throughout the night.</p>
+                            <div className='book-bullet'>
+                                <ul>
+                                    <li className='cb-small-text book-para title'>This package includes:</li>
+                                    <li className='cb-small-text book-para'>Door Entry</li>
+                                    <li className='cb-small-text book-para'>Souvenir Cup</li>
+                                </ul>
+                            </div>
                             <p className='cb-paragraph price'>$25</p>
                         </div>
 
                         <div className='book-info glass'>
                             <p className='cb-paragraph book-title'>Savor and Sway</p>
-                            <p className='cb-small-text book-para'>This premium package is individuals 
-                            looking to enjoy a lap dance along with all the basic amenities. 
-                            It includes a door ticket, a souvenir cup, and a private VIP dance with a lady of the individuals choice!</p>
+                            <div className='book-bullet'>
+                    
+                                <ul>
+                                    <li className='cb-small-text book-para title'>This package includes:</li>
+                                    <li className='cb-small-text book-para'>Door Entry</li>
+                                    <li className='cb-small-text book-para'>Souvenir Cup</li>
+                                    <li className='cb-small-text book-para'>VIP Dance</li>
+                                </ul>
+                            </div>
                             <p className='cb-paragraph price'>$125</p>
                         </div>
 
                         <div className='book-info glass'>
                             <p className='cb-paragraph book-title'>Celebration Package</p>
-                            <p className='cb-small-text book-para'>This premium package tier is for special 
-                            occasions like birthday or bachelor/bachelorette parties looking to celebrate in style. 
-                            It includes a door ticket, a souvenir cup, and a special stage performance where the customer is brought onto the stage with the lady of choice</p>
+                            <div className='book-bullet'>
+                         
+                                <ul>
+                                     <li className='cb-small-text book-para title'>This package includes:</li>
+                                    <li className='cb-small-text book-para'>Door Entry</li>
+                                    <li className='cb-small-text book-para'>Souvenir Cup</li>
+                                    <li className='cb-small-text book-para'>Special Stage Dance</li>
+                                </ul>
+                            </div>
                             <p className='cb-paragraph price'>$250</p>
                         </div>
 
