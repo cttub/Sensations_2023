@@ -23,7 +23,9 @@ class Work extends Component {
                         </div> </Fade>
                     </div>
                 </div>
+                
                 <div className='hideSmall'><Footer/></div>
+                
                 
             </div>
         );

@@ -166,3 +166,11 @@ button:hover, .button:hover{
   }
 
 }
+#policies{
+  margin-top: 200px;
+
+
+}
+#policies > .information{
+  padding: 20px;
+}

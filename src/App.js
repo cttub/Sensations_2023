@@ -14,6 +14,8 @@ import Visit from './Components/Visit';
 import Book from './Components/Book';
 import Gallery from './Components/Gallery';
 import Faq from './Components/Faq';
+import Privacy from './Components/Privacy';
+import TermsOfUse from './Components/TermsOfUse';
 function App() {
   React.useEffect(() => {
     TagManager.initialize({
@@ -33,6 +35,8 @@ function App() {
                 <Route path = "Book" element = {<Book/>}/>
                 <Route path = "Gallery" element = {<Gallery/>}/>
                 <Route path = "FAQ" element = {<Faq/>}/>
+                <Route path = "PrivacyPolicy" element = {<Privacy/>}/>
+                <Route path = "TermsOfUse" element = {<TermsOfUse/>}/>
               </Route>
           </Routes>
      </HashRouter>

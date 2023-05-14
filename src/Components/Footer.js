@@ -44,10 +44,20 @@ class Footer extends Component {
                             <p className='cb-small-text'><a target = "_blank" href = "https://www.google.com/maps/dir//11491+SE+Hwy+166,+Galena,+KS+66739/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x87c86df1da17040b:0x8f3747b7860282b1?sa=X&ved=2ahUKEwjqqOWi_47-AhXGmmoFHdaZB24QwwV6BAgLEAQ">
                                 11491 Southeast Hwy 166, Galena, KS 66739</a></p>
                         </div>
-                    
                         <div className='col-lg-4 col-md-4'>
-                            <p className='cb-small-text tito-footer'><TitoWidget/></p>
+                            
+                            <Link onClick={() => {
+                                            document.querySelector("html").scrollTo(0,0);
+                                            }}
+                                            to = "/PrivacyPolicy"> <p className='cb-small-text'><b>Privacy Policy</b></p>
+                            </Link>
+                            <Link onClick={() => {
+                                            document.querySelector("html").scrollTo(0,0);
+                                            }}
+                                            to = "/TermsOfUse"> <p className='cb-small-text'><b>Terms of Use</b></p>
+                            </Link>
                         </div>
+                   
                 </div>
            
         );

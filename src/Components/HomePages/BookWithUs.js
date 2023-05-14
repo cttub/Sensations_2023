@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import '../../Styles/tito.css';
 import Footer from '../Footer';
 import picture from '../../Assets/Images/book.JPG';
+import {Link} from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
+
 class TitoWidget extends Component {
     componentDidMount() {
       const script = document.createElement('script');
@@ -87,6 +89,20 @@ class BookWithUs extends Component {
                     </div>
                     <p className='cb-small-text center'><u>No refunds applicable</u></p>
                     <p className='cb-small-text center'>Good for 90 days after purchase</p>
+                    <div style={{margin: "auto", display: "flex", justifyContent: "center", alignContent: "center"}}>
+            
+                    <Link style={{display: "inline-block"}}  onClick={() => {
+                                            document.querySelector("html").scrollTo(0,0);
+                                            }}
+                                            to = "/PrivacyPolicy"> <p className='cb-small-text center'><b>Privacy Policy</b></p>
+                    </Link>
+                    <p style={{display: "inline-block"}} > &nbsp;&nbsp;&nbsp;&nbsp; </p>
+                    <Link style={{display: "inline-block"}} onClick={() => {
+                                            document.querySelector("html").scrollTo(0,0);
+                                            }}
+                                            to = "/TermsOfUse"> <p className='cb-small-text center'><b>Terms of Use</b></p>
+                    </Link>
+                    </div>
                     
                 </div>
                 <div className='hideSmall'><Footer/></div>
