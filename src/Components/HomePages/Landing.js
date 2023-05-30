@@ -35,17 +35,8 @@ class Landing extends Component {
                                             }}
                                             to = "/Visit">
                         <div><u> Tulsa, Oklahoma (Inola, Oklahoma) </u> </div></Link>  </span></p>
-                    <div className='button-book'>
-                        <Link class = "navItems"
-                                onClick={() => {
-                                                document.querySelector("html").scrollTo(0,0);
-                                                }}
-                                                to = "/Book">
-                            <div className='navItem cb-paragraph'><button className='cb-paragraph'>Book Now</button></div>
-                            </Link>
-                            <p className='sub-leading cb-paragraph'>Book Online for exclusive discounts, bundles and more.</p>
-
-                    </div>
+                        
+                 
                 </div>
          
             </div>
