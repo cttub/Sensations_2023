@@ -60,18 +60,6 @@ class NavigationBar extends Component {
                         <div className='navItem cb-paragraph'>FAQ</div>
                         </Link>
 
-                        <Link class = "navItems"
-                            onClick={() => {
-                                            document.querySelector("html").scrollTo(0,0);
-                                            }}
-                                            to = "/Book">
-                        <div className='navItem cb-paragraph'>Book Now</div>
-                        </Link>
-                     
-                      
-
-
-
                     </div>
                   
             </div></Fade> 
